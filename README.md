@@ -19,15 +19,25 @@ You'll also need an internet connection to pull the Docker images from Docker Hu
 
 ## Running the Application
 
-1. **Open the terminal and move to your desired directory**:
+1. **Clone this repository**:
 
-2. **Pull Docker images from Docker Hub**:
+    ```shell
+    git clone https://github.com/your-username/react-app-with-sso.git
+    ```
+
+2. **Navigate to the project directory**:
+
+    ```shell
+    cd react-app-with-sso
+    ```
+
+3. **Pull Docker images from Docker Hub**:
 
     ```shell
     docker-compose pull
     ```
 
-3. **Start the application**:
+4. **Start the application**:
 
     ```shell
     docker-compose up
