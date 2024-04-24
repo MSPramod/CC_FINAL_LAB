@@ -1,9 +1,7 @@
 version: '3'
 services:
   front:
-    build:
-      context: './client'
-      dockerfile: Dockerfile
+    image: mspd22/react_app_with_sso:front-latest
     ports:
       - 3000:3000
     container_name: react-container
@@ -15,11 +13,9 @@ services:
       - ./client:/app
     depends_on:
       - backend
-      
+
   backend:
-    build:
-      context: './api'
-      dockerfile: Dockerfile
+    image: mspd22/react_app_with_sso:backend-latest
     ports:
       - 5500:5500
     container_name: express-container
@@ -31,7 +27,7 @@ services:
       - mongo
 
   mongo:
-    image: mongo:latest 
+    image: mspd22/react_app_with_sso:mongo-latest
     ports:
       - 27017:27017
     container_name: mongo-container
@@ -39,7 +35,7 @@ services:
       - mern-stack-network
     volumes:
       - mongoData:/data/db
-    
+
 networks:
   mern-stack-network:
 volumes:
