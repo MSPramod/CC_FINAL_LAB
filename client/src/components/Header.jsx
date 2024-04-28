@@ -58,10 +58,7 @@ export default function Header() {
           </li>
           <li style={listItemStyle}>
             <Link to='/sign-up' style={linkStyle}>Sign Up</Link>
-          </li>,
-          {/* <li style={listItemStyle}>
-            <Link to='/search' style={linkStyle}>Search</Link>
-          </li> */}
+          </li>
           {currentUser && (
             <li style={listItemStyle}>
               <Link to='/profile' style={linkStyle}>
