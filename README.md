@@ -2,7 +2,7 @@
 Repository containing the final lab of Cloud Computing
 
 ### DOCKER PULL REQUEST : docker pull mspd22/react_app_with_sso
-### REPOSITORY LINK : https://hub.docker.com/r/mspd22/react_app_with_sso
+### DOCKER REPOSITORY LINK : https://hub.docker.com/r/mspd22/react_app_with_sso
 
 # React App with SSO
 
