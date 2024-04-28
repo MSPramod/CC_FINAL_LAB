@@ -39,14 +39,14 @@ export default function OAuth() {
       type='button'
       onClick={handleGoogleClick}
       style={{
-        backgroundColor: '#d9534f', // Equivalent to bg-red-700
-        color: 'white', // Equivalent to text-white
-        borderRadius: '8px', // Rounded corners
-        padding: '12px', // Padding for the button
-        textTransform: 'uppercase', // Equivalent to uppercase
-        transition: 'opacity 0.3s', // Transition for hover effect
-        cursor: 'pointer', // Hand cursor on hover
-        fontSize: '16px', // Font size
+        backgroundColor: '#d9534f', 
+        color: 'white', 
+        borderRadius: '8px', 
+        padding: '12px', 
+        textTransform: 'uppercase',
+        transition: 'opacity 0.3s', 
+        cursor: 'pointer',
+        fontSize: '16px',
       }}
       onMouseOver={(e) => (e.currentTarget.style.opacity = '0.95')}
       onMouseOut={(e) => (e.currentTarget.style.opacity = '1')}
